@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+ 
+    background-color: #FFD24C; 
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 5px;
+  }
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    padding: 20px;
+
+}
+.logo__imagen{
+
+    
+}
+.hero{
+background-color: #FFD24C;
+height: 90%;
+width: 90%;
+background-image: url(./imagenes/herosection.JPG);
+background-size: contain;
+background-repeat: no-repeat;
+display:flex;
+align-items: center;
+justify-content: space-between;
+
+}
+.hero__contenedor{
+    width: 70%;
+  margin: 20px;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.comidas_contenedor{
+    padding: 1rem 1rem;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+}
+.comida__imagen {
+	width: 100%;
+}
+.comida {
+  width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+.Chefs {
+	padding: 1rem;
+}
+.contenedor_chefs{
+padding: 1rem 1rem;
+display: grid;
+grid-template-columns: repeat(2 , 1fr);
+}
